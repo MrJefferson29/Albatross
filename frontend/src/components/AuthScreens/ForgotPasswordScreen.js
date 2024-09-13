@@ -13,7 +13,7 @@ const ForgotPasswordScreen = () => {
 
     try {
       const { data } = await axios.post(
-        "https://new-bag.onrender.com/auth/forgotpassword",
+        "https://albatross-server.onrender.com/auth/forgotpassword",
         { email }
       );
 

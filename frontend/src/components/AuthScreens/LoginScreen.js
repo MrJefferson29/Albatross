@@ -14,7 +14,7 @@ const LoginScreen = () => {
 
     try {
       const { data } = await axios.post(
-        "https://new-bag.onrender.com/auth/login",
+        "https://albatross-server.onrender.com/auth/login",
         { email, password }
       );
       localStorage.setItem("authToken", data.token);

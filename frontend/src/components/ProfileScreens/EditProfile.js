@@ -27,7 +27,7 @@ const EditProfile = () => {
         formdata.append("photo", photo)
 
         try {
-            const { data } = await axios.post("https://new-bag.onrender.com/user/editProfile", formdata, config)
+            const { data } = await axios.post("https://albatross-server.onrender.com/user/editProfile", formdata, config)
 
             setSuccess('Edit Profile successfully ')
             setTimeout(() => {

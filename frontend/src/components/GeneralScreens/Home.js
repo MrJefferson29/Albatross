@@ -37,7 +37,7 @@ const Home = () => {
     const getStories = async () => {
       setLoading(true);
       try {
-        let url = `https://new-bag.onrender.com/story/getAllStories?page=${page}`;
+        let url = `https://albatross-server.onrender.com/story/getAllStories?page=${page}`;
         if (searchKey) {
           url += `&search=${searchKey}`;
         }

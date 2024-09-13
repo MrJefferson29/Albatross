@@ -24,7 +24,7 @@ const RegisterScreen = () => {
 
     try {
       const { data } = await axios.post(
-        "https://new-bag.onrender.com/auth/register",
+        "https://albatross-server.onrender.com/auth/register",
         {
           username,
           email,
